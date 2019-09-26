@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Пащенко</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+                <a href="index.html">Главная</a>
+                <a href="labka.html">Лабка</a>
+                <a href="https://vk.com/your_tuesday">Вконтакте</a>
+                <a href="http://timetable.nvsuedu.ru/tm/index.php">Расписание занятий</a>
+            
+        </nav>
+        </header>
+
+    <main>
+        <section>
+            <table>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"></td>
+                        <td></td>
+                        <td rowspan="3"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+        
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br>
+                <table class="rax">
+                    <tr>
+                        <td class="colspan zad" colspan="8" bgcolor="#70f8cd"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowspan zad" rowspan="6" bgcolor="#fffccb"></td>
+                        <td class="colspan zad" colspan="6" bgcolor="#70f8cd"></td>
+                        <td class="rowspan zad" rowspan="6" bgcolor="#fffccb"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowspan zad" rowspan="4" bgcolor="#fffccb"></td>
+                        <td class="colspan zad" colspan="4" bgcolor="#70f8cd"></td>
+                        <td class="rowspan zad" rowspan="4" bgcolor="#fffccb"></td>
+                    </tr>
+                    <tr>
+                        <td class="rowspan zad" rowspan="2" bgcolor="#fffccb"></td>
+                        <td bgcolor="red"></td>
+                        <td bgcolor="blue"></td>
+                        <td class="rowspan zad" rowspan="2" bgcolor="#fffccb"></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="green"></td>
+                        <td bgcolor="yellow"></td>
+                    </tr>
+                    <tr>
+                        <td class="colspan zad" colspan="4" bgcolor="#70f8cd"></td>
+                    </tr>
+                    <tr>
+                        <td class="colspan zad" colspan="6" bgcolor="#70f8cd"></td>
+                    </tr>
+                    <tr>
+                        <td class="colspan zad" colspan="8" bgcolor="#70f8cd"></td>
+                    </tr>
+                </table>
+            </section>
+                <br>
+                <section class="dodo">
+                <form method="get">
+                    <br>
+                    <h2>ЗАО Птицефабрика №1</h2>
+                    <label for="family-field">Фамилия</label>
+                    <input class="form" type="text" id="family-field">
+                    <br>
+                    <label for="IO-field">Инициалы</label>
+                    <input class="form" type="text" id="IO-field">
+                    <br>
+                    <label for="pass-field">Пароль</label>
+                    <input class="form" type="password" id="pass-field">
+                    <br>
+                    <label for="adres-field">Адрес получателя</label>
+                    <input class="form" type="text" id="adres-field">
+                    <br>
+                    <label for="kolvo-field">Количество</label>
+                    <input class="form" type="text" id="kolvo-field">
+                    <br>
+                    <label>Тип</label>
+                    <select class="form" name="type">
+                        <option>Куриные</option>
+                    </select>
+                    <select class="form" name="type">
+                        <option>Отборные</option>
+                    </select>
+                    <br>
+                    <label>Доставка</label>
+                    <input class="form" type="radio" name="dostavka"> Почтой
+                    <input class="form" type="radio" name="dostavka"> Электронно
+                    <input class="form" type="radio" name="dostavka"> Курьером
+                    <br>
+                    <label>Требуется накладная</label>
+                    <input class="form" type="checkbox">
+                    <br>
+                    <label class="kd">Дополнительная информация</label>
+                    <textarea rows="5"></textarea>
+                    <br>
+                    <input class="forma" type="submit" value="Заказать">
+                    <input class="forma" type="submit" value="Отменить">
+                </form>
+                </section>
+                <section class = "kfc">
+                <form method="get" enctype="multipart/form-data">
+                    <br>
+                    <h2>Пример формы регистрации сайта</h2>
+                    <label for="family-field">Логин</label>
+                    <br>
+                    <input class="form" type="text" id="family-field">
+                    <br>
+                    <label for="pass-field">Пароль</label>
+                    <br>
+                    <input class="form" type="password" id="pass-field">
+                    <br>
+                    <label for="adres-field">URL-адрес сайта:</label>
+                    <br>
+                    <input class="form" type="text" id="adres-field" value="http://">
+                    <br>
+                    <label for="kolvo-field">Название сайта</label>
+                    <br>
+                    <input class="form" type="text" id="kolvo-field">
+                    <br>
+                    <label>Описание сайта</label>
+                    <br>
+                    <textarea rows="10"></textarea>
+                    <br>
+                    <label>Тема сайта:</label>
+                    <br>
+                    <select>
+                        <option>Тема не выбрана</option>
+                    </select>
+                    <br>
+                      <label>Баннер 88x31:</label>
+                      <br>
+                      <input type="file" name="banner">
+                      <br>
+                    <input class="forma" type="submit" value="Очистить">
+                    <input class="forma" type="submit" value="Отправить">
+                </form>
+            </section>
+                <br>
+    </main>
+</body>
+
+</html>

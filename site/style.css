@@ -1,0 +1,113 @@
+body {
+    background-image: url(background.png);
+    background-size: 100%;
+}
+
+header{
+    text-align: center;
+}
+a{
+    color: black;
+    padding: 2%;
+    font-size: 100%;
+}
+h1{
+    padding: 1%;
+    font-size: 100%;
+}
+
+ul {
+    padding-left: 20%;
+}
+
+li{
+    color: black;
+    font-size: 90%;
+    list-style-type: none;
+}
+
+img {
+    padding-left:20%;
+}
+
+nav {
+    padding-top: 11%;
+}
+main {
+    margin-top: 2%;
+
+}
+
+table {
+    margin-left: 25%;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.rax {
+    width: 25%;
+    border-collapse: collapse; 
+}
+
+.zad {
+    padding-bottom: 10%;
+}
+
+h2 {
+    font-family: Tahoma;
+}
+
+label{
+    font-family: Minion Pro;
+    font-size: 150%;
+    color: black;
+}
+
+form{
+    padding-left: 10%;
+    font-size:100%;
+}
+.form {
+ vertical-align: 25%;  
+}
+
+textarea {
+    padding-left: 20%;
+    
+}
+
+.kd {
+    vertical-align: 115%;
+}
+
+.forma {
+    font-family: Minion Pro;
+    font-size: 100%;
+    padding-bottom: 1%;
+}
+
+.fix {
+    color:white;
+}
+
+.dodo {
+    margin-left: 15%;
+    margin-top: 30%;
+    font-size: 60%;
+}
+.kfc {
+    margin-left: 15%;
+    margin-top: 31.5%;
+    font-size: 60%;
+}
+
+.mac {
+    border-radius: %;
+   
+}
