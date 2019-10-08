@@ -140,10 +140,7 @@ textarea {
     font-family: arial;
     }*/
     
-    i {
-    font-size: 27px;
-    font-family: Verdana;
-    }
+  
     
     .p3 {
     font-family: Times New Roman;
@@ -188,13 +185,7 @@ textarea {
     color:black;
     }
     
-    em1 {
-    font-size: 25px;
-    text-decoration: underline;
-    }
-    em2 {
-    text-decoration: underline;
-    }
+
     
     .p6789{
         margin-left: 3%;
@@ -206,13 +197,7 @@ textarea {
     font-family: Tahoma;
     font-size:18px;
     }
-    em3 {
-    font-size: 30px;
-    }
-    em4 {
-    color:#5222ff;
-    text-decoration: underline;
-    }
+
     .p7 {
     margin-left: 17%;
     margin-right: 25%;
@@ -222,18 +207,41 @@ textarea {
     font-size:20px;
     }
     
-    i2 {
+    .i {
+        font-size: 27px;
+        font-family: Verdana;
+        }
+       
+        .i1 {
+            font-size: 25px;
+            text-decoration: underline;
+            }
+        
+            .i2 {
+                text-decoration: underline;
+                }
+
+                .i3 {
+                    color:#5222ff;
+                    text-decoration: underline;
+                    }
+   .i4 {
+     font-size: 30px;
+      }
+
+    .i5 {
     color:#3700ff;
     font-weight: bold;
     font-size:25px;
     }
     
-    i3 {
+    .i6 {
     color:#ff0000;
     font-style: italic;
     font-weight: bold;
     font-size:25px;
     }
+
     
     .p8 {
     margin-right: 25%;
