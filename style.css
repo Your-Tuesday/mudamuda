@@ -5,12 +5,19 @@ body {
 
 header{
     text-align: center;
+    padding-left: 1%;
+    font-family:  sans-serif;
+    font-weight: bold;
 }
+
 
 a{
     color: black;
     padding: 2%;
-    font-size: 100%;
+    font-size: 115%;
+    color: rgba(0,0,0,0.6);
+   text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+
 }
 h1{
     padding: 1%;
@@ -24,21 +31,33 @@ ul {
 
 li{
     color: black;
-    font-size: 110%;
+    font-size: 80%;
     list-style-type: none;
 }
+
+iframe {
+    padding-bottom: 10%;
+    padding-left: 18.08%;
+    border:none;
+    
+}
+
 
 img {
     padding-left:20%;
 }
 
 nav {
-    margin-left: 5%;
+    margin-left: 7%;
     padding-top: 11%;
 }
 main {
-    margin-top: 2%;
+    margin-top: 1%;
 
+}
+
+aside{
+    padding-top: 1%;
 }
 
 table{
@@ -54,6 +73,7 @@ td {
 }
 
 .tablichka {
+    margin-top: 2%;
     width: 25%;
     border-collapse: collapse; 
 }
@@ -106,14 +126,10 @@ textarea {
 }
 .kfc {
     margin-left: 15%;
-    margin-top: 35%;
-    font-size: 60%;
+    margin-top: 30%;
+    font-size: 48%;
 }
 
-.mac {
-    border-radius: %;
-   
-}
 
     
     .h2 {

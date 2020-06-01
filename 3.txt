@@ -1,0 +1,23 @@
+var properties1 = {a:window.closed, b:window.document, c:window.frames, d:window.history, e:window.parent}
+
+for (var key in properties1) {
+alert( "Ключ: " + key + " значение: " + properties1[key] );
+}
+
+var properties2 = {y1:document.activeElement,y2:document.documentURI,y3:document.images,y4:document.links}
+for (var k in properties2)
+{
+alert( "Ключ: " + k + " значение: " + properties2[k] );
+}
+
+var properties3 = {x1:location.hash,x2:location.host,x3:location.hostname,x4:location.href,x5:location.origin,x6:location.pathname,x7:location.port,x8:location.protocol,x9:location.search}
+for (var i in properties3)
+{
+alert( "Ключ: " + i + " значение: " + properties3[i] );
+}
+
+var properties4 = {z1:navigator.appName,z2:navigator.appVersion,z3:navigator.cookieEnabled,z4:navigator.geolocation,z5:navigator.onLine,z6:navigator.platform,z7:navigator.systemLanguage,
+z8:navigator.userAgent}
+for (var r in properties4) {
+alert( "Ключ : " + r + " значение: " + properties4[r] );
+}
